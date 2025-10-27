@@ -1,0 +1,48 @@
+{
+  "name": "Marconi Link",
+  "short_name": "Marconi Link",
+  "description": "Piattaforma di condivisione risorse per studenti e docenti dell'I.C. Pace del Mela",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "social"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Crea Post",
+      "short_name": "Nuovo",
+      "description": "Crea un nuovo post",
+      "url": "/?action=create",
+      "icons": []
+    },
+    {
+      "name": "Classifica",
+      "short_name": "Top",
+      "description": "Visualizza la classifica",
+      "url": "/?action=leaderboard",
+      "icons": []
+    }
+  ],
+  "prefer_related_applications": false
+}
