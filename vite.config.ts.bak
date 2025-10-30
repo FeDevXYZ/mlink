@@ -5,7 +5,8 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '/mlink/'  
+    base: process.env.NODE_ENV === "production" ? "/marconilinks/" : "/",
+      root: '.',     
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
